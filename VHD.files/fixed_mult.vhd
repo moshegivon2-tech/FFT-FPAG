@@ -3,25 +3,27 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity fixed_mult is
-    generic (
-        WIDTH : integer := 16
-    );
+    generic ( WIDTH : integer := 16 );
     port (
-        a : in std_logic_vector(WIDTH-1 downto 0);
-        b : in std_logic_vector(WIDTH-1 downto 0);
+        a, b : in std_logic_vector(WIDTH-1 downto 0);
         result : out std_logic_vector(WIDTH-1 downto 0)
     );
 end fixed_mult;
 
 architecture rtl of fixed_mult is
-    signal a_s, b_s : signed(WIDTH-1 downto 0);
-    signal temp : signed(2*WIDTH-1 downto 0);
 begin
-    a_s <= signed(a);
-    b_s <= signed(b);
-    temp <= a_s * b_s;
-    
-    -- חיתוך לפורמט Q1.15 (שומרים על הביט העליון ו-15 שאחריו)
-    -- שים לב: זה מניח שהמספרים הם בטווח -1 ל-1
-    result <= std_logic_vector(temp(2*WIDTH-2 downto WIDTH-1)); 
+    process(a, b)
+        variable v_a, v_b : signed(WIDTH-1 downto 0);
+        variable v_res_full : signed(2*WIDTH-1 downto 0);
+    begin
+        v_a := signed(a);
+        v_b := signed(b);
+        v_res_full := v_a * v_b;
+        
+        -- Q1.15 * Q1.15 = Q2.30
+        -- ????? ????? ????? ?? ????? Q1.15.
+        -- ??? ?????? ?? ?????? ???????? (??????? ?? ?-LSB ???????? ??? ??? ????? ?????)
+        -- ???? ??? ?????? ?? 30 downto 15
+        result <= std_logic_vector(v_res_full(WIDTH + WIDTH - 2 downto WIDTH - 1));
+    end process;
 end rtl;
