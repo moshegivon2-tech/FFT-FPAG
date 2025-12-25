@@ -2,90 +2,66 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity tb_fft is
-    -- Testbench is an empty entity
-end tb_fft;
+entity tb_fft is end tb_fft;
 
-architecture behavior of tb_fft is
-
-    -- רכיב לבדיקה (Unit Under Test)
-    component top_level is
-        port (
-            clk : in std_logic;
-            reset : in std_logic;
-            start : in std_logic;
-            done  : out std_logic;
-            data_out_real : out std_logic_vector(15 downto 0);
-            data_out_imag : out std_logic_vector(15 downto 0)
+architecture behavior of tb_fft is 
+    component top_level
+    port(
+         clk, reset, start : in std_logic;
+         wave_sel : in std_logic_vector(1 downto 0);
+         display_addr : in std_logic_vector(3 downto 0);
+         display_sel : in std_logic;
+         done : out std_logic;
+         leds : out std_logic_vector(15 downto 0)
         );
     end component;
 
-    -- אותות פנימיים לחיבור לרכיב
-    signal clk   : std_logic := '0';
-    signal reset : std_logic := '0';
-    signal start : std_logic := '0';
-    signal done  : std_logic;
-    signal data_out_real : std_logic_vector(15 downto 0);
-    signal data_out_imag : std_logic_vector(15 downto 0);
-
-    -- הגדרת זמן מחזור שעון (100MHz)
-    constant CLK_PERIOD : time := 10 ns;
-
+    signal clk : std_logic := '0';
+    signal reset, start, done, display_sel : std_logic := '0';
+    signal wave_sel : std_logic_vector(1 downto 0) := "00";
+    signal display_addr : std_logic_vector(3 downto 0) := (others => '0');
+    signal leds : std_logic_vector(15 downto 0);
+    constant clk_period : time := 10 ns;
+ 
 begin
+    uut: top_level port map (clk, reset, start, wave_sel, display_addr, display_sel, done, leds);
 
-    -- 1. יצירת המופע של ה-Top Level
-    uut: top_level
-    port map (
-        clk => clk,
-        reset => reset,
-        start => start,
-        done => done,
-        data_out_real => data_out_real,
-        data_out_imag => data_out_imag
-    );
-
-    -- 2. תהליך יצירת שעון
-    clk_process : process
-    begin
-        clk <= '0';
-        wait for CLK_PERIOD/2;
-        clk <= '1';
-        wait for CLK_PERIOD/2;
-    end process;
-
-    -- 3. תהליך הבדיקה (Stimulus)
+    clk_process :process begin clk <= '0'; wait for clk_period/2; clk <= '1'; wait for clk_period/2; end process;
+ 
     stim_proc: process
-    begin
-        -- מצב התחלתי
-        reset <= '1';
-        start <= '0';
+    begin		
         wait for 100 ns;
 
-        -- שחרור Reset
-        reset <= '0';
-        
-        -- הערה חשובה: ב-Top Level הוספנו מנגנון אתחול שלוקח 16 מחזורי שעון.
-        -- נמתין שהאתחול הפנימי יסתיים (16 * 10ns = 160ns), ניקח מרווח ביטחון.
-        wait for 200 ns; 
+        -- 1. Square (????? ?-Sinc)
+        wave_sel <= "00"; display_sel <= '0'; -- Real
+        reset <= '1'; wait for 50 ns; reset <= '0'; wait for 400 ns; 
+        start <= '1'; wait for clk_period; start <= '0';
+        wait until done = '1'; wait for 200 ns;
 
-        -- שליחת פקודת התחלה (פולס קצר)
-        wait until rising_edge(clk);
-        start <= '1';
-        wait until rising_edge(clk);
-        start <= '0';
+        -- 2. Impulse (????? ?-Flat)
+        wave_sel <= "01";
+        reset <= '1'; wait for 50 ns; reset <= '0'; wait for 400 ns; 
+        start <= '1'; wait for clk_period; start <= '0';
+        wait until done = '1'; wait for 200 ns;
 
-        -- המתנה לסיום החישוב
-        -- אנחנו מחכים שהדגל 'done' יעלה ל-'1'
-        wait until done = '1';
-        
-        -- המתנה קצרה לאחר הסיום כדי לראות את התוצאה יציבה
-        wait for 100 ns;
+        -- 3. Sine (????? ???? ?-1 ??-15 ???? ?-Imaginary)
+        wave_sel <= "10"; display_sel <= '1'; -- Imaginary
+        reset <= '1'; wait for 50 ns; reset <= '0'; wait for 400 ns; 
+        start <= '1'; wait for clk_period; start <= '0';
+        wait until done = '1'; wait for 200 ns;
 
-        -- סיום הסימולציה
-        report "FFT Simulation Completed Successfully!" severity note;
+        -- 4. Two-Tone (????? ?????? ?-1,5,11,15 ?-Imaginary)
+        wave_sel <= "11";
+        reset <= '1'; wait for 50 ns; reset <= '0'; wait for 400 ns; 
+        start <= '1'; wait for clk_period; start <= '0';
+        wait until done = '1'; 
         
-        -- עצירת הסימולציה (לרוב הסימולטורים)
+        -- ????? ?????? ???? Two-Tone
+        for i in 0 to 15 loop
+            display_addr <= std_logic_vector(to_unsigned(i, 4));
+            wait for 20 ns;
+        end loop;
+
         wait;
     end process;
-
 end behavior;
