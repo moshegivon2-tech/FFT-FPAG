@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd,1766917177,vhdl,,,,tb_fft_selfcheck,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/butterfly.vhd,1766860517,vhdl,C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd,,,butterfly,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd,1766863063,vhdl,C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd,,,fft_controller,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fixed_mult.vhd,1766860515,vhdl,,,,fixed_mult,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/ram_dual.vhd,1766872716,vhdl,C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd,,,ram_dual_port,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd,1766917151,vhdl,,,,top_level,,,,,,,,
+C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/twiddle_rom.vhd,1766860510,vhdl,C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd,,,twiddle_rom,,,,,,,,

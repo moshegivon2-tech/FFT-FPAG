@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec 28 11:38:44 2025
+# Process ID: 19952
+# Current directory: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18708 C:\Users\97253\OneDrive - Ariel University\Desktop\VHDL\VHDL\FFT\FFT_FPGA\FFT_FPGA.xpr
+# Log file: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/vivado.log
+# Journal file: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
