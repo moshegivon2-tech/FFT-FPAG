@@ -1,0 +1,222 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Note: Starting initialization sequence
+Time: 5 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 0
+Time: 15 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 1
+Time: 25 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 2
+Time: 35 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 3
+Time: 45 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 4
+Time: 55 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 5
+Time: 65 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 6
+Time: 75 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 7
+Time: 85 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 8
+Time: 95 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: Starting FFT Self-Check (Original Timing Restore)
+Time: 100 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: RESET: need_init flag set
+Time: 100 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 105 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 110 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 115 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 120 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 125 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 130 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 135 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 140 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 145 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: Starting initialization sequence
+Time: 155 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 0
+Time: 165 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 1
+Time: 175 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 2
+Time: 185 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 3
+Time: 195 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 4
+Time: 205 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 5
+Time: 215 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 6
+Time: 225 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 7
+Time: 235 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 8
+Time: 245 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 9
+Time: 255 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 10
+Time: 265 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 11
+Time: 275 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 12
+Time: 285 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 13
+Time: 295 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 14
+Time: 305 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 15
+Time: 315 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Complete
+Time: 325 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: FFT_CONTROLLER: Received START, moving to ST_READ
+Time: 355 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note: FFT_CONTROLLER: Reached final count, moving to ST_DONE
+Time: 1315 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note:   PASS: Impulse Bin 0 = 2047 (expected ~2047)
+Time: 1395 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: RESET: need_init flag set
+Time: 1395 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1400 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1405 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1410 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1415 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1420 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1425 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1430 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1435 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 1440 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: Starting initialization sequence
+Time: 1445 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 0
+Time: 1455 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 1
+Time: 1465 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 2
+Time: 1475 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 3
+Time: 1485 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 4
+Time: 1495 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 5
+Time: 1505 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 6
+Time: 1515 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 7
+Time: 1525 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 8
+Time: 1535 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 9
+Time: 1545 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 10
+Time: 1555 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 11
+Time: 1565 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 12
+Time: 1575 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 13
+Time: 1585 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 14
+Time: 1595 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 15
+Time: 1605 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Complete
+Time: 1615 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: FFT_CONTROLLER: Received START, moving to ST_READ
+Time: 1645 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note: FFT_CONTROLLER: Reached final count, moving to ST_DONE
+Time: 2605 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note:   PASS: Sine Bin 1 Imag = -16383 (expected ~-16384)
+Time: 2685 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note:   PASS: Sine Bin 15 Imag = 16380 (expected ~16384)
+Time: 2705 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note:   PASS: Sine Bin 2 Real = 0 (expected ~0)
+Time: 2725 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: RESET: need_init flag set
+Time: 2725 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2730 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2735 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2740 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2745 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2750 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2755 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2760 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2765 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: RESET: need_init flag set
+Time: 2770 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: Starting initialization sequence
+Time: 2775 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 0
+Time: 2785 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 1
+Time: 2795 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 2
+Time: 2805 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 3
+Time: 2815 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 4
+Time: 2825 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 5
+Time: 2835 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 6
+Time: 2845 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 7
+Time: 2855 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 8
+Time: 2865 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 9
+Time: 2875 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 10
+Time: 2885 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 11
+Time: 2895 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 12
+Time: 2905 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 13
+Time: 2915 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 14
+Time: 2925 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Writing sample 15
+Time: 2935 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: INIT: Complete
+Time: 2945 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/line__41  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/top_level.vhd
+Note: FFT_CONTROLLER: Received START, moving to ST_READ
+Time: 2975 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note: FFT_CONTROLLER: Reached final count, moving to ST_DONE
+Time: 3935 ns  Iteration: 1  Process: /tb_fft_selfcheck/uut/u_ctrl/line__19  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/Moshe_files/fft_controller.vhd
+Note:   PASS: Square Bin 0 = 16383 (expected ~16384)
+Time: 4015 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: ========================================
+Time: 4015 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: Tests Passed: 4
+Time: 4015 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: Tests Failed: 0
+Time: 4015 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
+Note: ========================================
+Time: 4015 ns  Iteration: 0  Process: /tb_fft_selfcheck/stim_proc  File: C:/Users/97253/OneDrive - Ariel University/Desktop/VHDL/VHDL/FFT/FFT_FPGA/FFT_FPGA.srcs/sim_1/new/TB.vhd
